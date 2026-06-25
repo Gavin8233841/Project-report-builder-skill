@@ -1,7 +1,5 @@
 # Project Report Builder
 
-中文名：项目说明文档
-
 [![Gitleaks Secret Scan](https://github.com/Gavin8233841/Project-report-builder-skill/actions/workflows/gitleaks.yml/badge.svg)](https://github.com/Gavin8233841/Project-report-builder-skill/actions/workflows/gitleaks.yml)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Gavin8233841/Project-report-builder-skill/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Gavin8233841/Project-report-builder-skill)
 
@@ -13,7 +11,7 @@ It helps developers turn working software into a first draft that judges, teache
 
 This skill is **not limited to a single platform**. The core logic lives in `SKILL.md` (YAML frontmatter + Markdown), which is a plain-text instruction file with no executable code, no dependencies, and no runtime requirements:
 
-- **Primary target**: WorkBuddy / Codex — the only platform for which an interface configuration file (`agents/openai.yaml`) is provided. On this platform the skill supports implicit invocation and default prompt routing.
+- **Primary target**: Codex — the only platform for which an interface configuration file (`agents/openai.yaml`) is provided. On this platform the skill supports implicit invocation and default prompt routing.
 - **Also usable on**: Claude Code (custom instructions), Cursor (`.cursorrules`), or any AI coding assistant that accepts Markdown-based system prompts or skill instruction files. Simply copy or reference the content of `SKILL.md` as a system prompt.
 - **Universal use**: You can paste the contents of `SKILL.md` directly into a chat with ChatGPT, Claude, Gemini, or any LLM that accepts user-provided instructions, and it will follow the same workflow.
 
