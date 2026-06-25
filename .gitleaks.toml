@@ -1,0 +1,16 @@
+# Gitleaks configuration for project-report-builder
+# Extends default rules. This repo contains an AI assistant skill with no production secrets.
+# See: https://github.com/gitleaks/gitleaks?tab=readme-ov-file#configuration
+
+title = "project-report-builder gitleaks config"
+
+[extend]
+useDefault = true
+
+# Allow-list: match patterns that are safe to appear in this repository.
+# The README references example clone URLs with OWNER/REPO placeholders —
+# those are intentionally generic and should not trigger false positives.
+[allowlist]
+  description = "Known safe patterns"
+
+# Additional repo-specific rules (add below if needed)

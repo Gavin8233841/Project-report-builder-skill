@@ -1,0 +1,6 @@
+interface:
+  display_name: "项目说明文档"
+  short_description: "把软件原型打磨成专业项目说明文档"
+  default_prompt: "Use $project-report-builder to turn this software project or prototype into a polished project report with evidence, screenshots, privacy review, and PDF-ready structure."
+policy:
+  allow_implicit_invocation: true
